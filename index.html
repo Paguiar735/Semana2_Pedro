@@ -10,14 +10,14 @@
   <body>
     <center>
         <h2>Nosso Portal</h2>
-        <p class="lineskip-three"></p>
+        <p class="lineskip-two"></p>
         <hr>
         <h3>Digite seu e-mail institucional</h3>
         <hr>
-        <p id="myText"></p>
-        <script>
-          document.getElementById("myText").innerHTML = Email_validation("A");
-        </script>
+        <p class="lineskip-two"></p>
+        <input type="text" id="myText" placeholder="...@uea.edu.br">
+        <button onclick="Email_validation()">Submit</button>
+        <p id="result"></p>
     </center>
   </body>
 </html>
