@@ -1,10 +1,8 @@
-function Loginvalidation() {
-  var email = getElementById("myText")
+function Email_validation(email) {
   if (email != "P"){
-    return "0"
+    return "0";
   }
-}
-
-function A() {
-  return 5;
+  else {
+    return "1";
+  }
 }
