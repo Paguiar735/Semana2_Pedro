@@ -19,3 +19,26 @@
 .lineskip-three {
   margin-bottom: 3em;
 }
+
+div.settings {
+  display: grid;
+  grid-template-columns: max-content max-content;
+  grid-gap: 0.75em;
+}
+
+div.button {
+  align-content: center;
+}
+
+.button-style {
+  height: 2em;
+  width: 8em;
+  align-content: center;
+}
+div.settings label {
+  text-align:right;
+}
+
+div.settings label:after {
+  content: ":";
+}

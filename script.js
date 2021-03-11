@@ -7,14 +7,20 @@ function Validade(email) {
     "sjvb.cic18@uea.edu.br",
     "tsds.tur19@uea.edu.br", "000"]
   if (allowed_emails.includes(email)){
-    return "1";
+    window.open("https://repl.it/@Paguiar735/Semana2Higor#main.py", "_self");
+    return "E-mail Válido";
   }
   else {
-    return "0";
+    return "E-mail Inválido";
   }
 }
 
 function Email_validation(email) {
+  var email = document.getElementById("myText").value;
+  document.getElementById("result").innerHTML = Validade(email);
+}
+
+function Fill_table(email) {
   var email = document.getElementById("myText").value;
   document.getElementById("result").innerHTML = Validade(email);
 }

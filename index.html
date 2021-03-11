@@ -9,21 +9,41 @@
   </head>
   <body>
     <center>
-        <h2>Nosso Portal</h2>
+        <h2>Inserir Evento</h2>
         <p class="lineskip-two"></p>
         <hr>
-        <h3>Digite seu e-mail institucional</h3>
+        <h3>Área de Edição</h3>
         <hr>
         <p class="lineskip-two"></p>
-        <input type="text" id="myText" placeholder="...@uea.edu.br">
-        <button onclick="Email_validation()">Submit</button>
+        <div class="settings">
+          <label>Nome</label>
+          <input type="text" id="myText" placeholder="Placeholder">
+        </div>
+        <p class="lineskip-one"></p>
+          <button class="button-style" onclick="Email_validation()">Submit</button>
         <p id="result"></p>
+        <p class="lineskip-two"></p>
+        <hr>
+        <h3>Área de Submissão</h3>
+        <hr>
     </center>
   </body>
 </html>
 
 <!--
-        <p class="lineskip-two"></p>
-          <input type="text" id="myText" placeholder="...@uea.edu.br">
-  Criação de um página de acesso restrito capaz de receber dados dos eventos inseridos pelo usuário e salvá-los em uma pasta contendo todos os eventos em arquivos CSV individuais, além de checar por duplicidade antes de salvar um novo evento.
+  1 - () Função para ler os valores abaixo e armazená-los;
+  2 - () Função para ler os dados armazenados e imprimi-los em uma tabela no final da página;
+  3 - () Função para salvar os dados da tabela em um arquivo CSV após pertar em "Salvar".
+
+- Nome (do Evento)
+- Público-Alvo
+- Descrição (breve acerca do que o evento se trata)
+- Local
+- Data de Realização
+- Período de Inscrição
+- Taxas (de inscrição e minicursos)
+- Link para a Inscrição
+- Fonte (somente equipe)
+
+http://dotnetwithsqlserver.blogspot.com/2016/11/how-to-manipulate-and-fill-html-table.html
 -->
