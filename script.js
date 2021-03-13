@@ -15,12 +15,17 @@ function Validade(email) {
   }
 }
 
-function Email_validation(email) {
+function Email_validation() {
   var email = document.getElementById("myText").value;
   document.getElementById("result").innerHTML = Validade(email);
 }
 
-function Fill_table(email) {
+function Fill_table() {
   var email = document.getElementById("myText").value;
   document.getElementById("result").innerHTML = Validade(email);
+}
+
+function Fill_last_section() {
+  var str = document.getElementById("Nome").value;
+  document.getElementById("Nome_sub").innerHTML = str;
 }
